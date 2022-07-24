@@ -312,7 +312,7 @@ body
     color: rgba(255, 255, 255, 0.6);
 }
 
-.address-list-link:hover
+.address-list-link:hover, .address-list-link:focus
 {
     color: var(--main-active-color);
 }
