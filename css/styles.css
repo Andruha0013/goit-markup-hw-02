@@ -174,7 +174,10 @@ body
 }
 .projects-item {
 }
-.team {
+
+.team
+{
+    background-color: #F5F4FA;
 }
 
 .team-header
@@ -187,8 +190,10 @@ body
 }
 .team-list {
 }
+
 .team-item 
 {
+    background-color: #FFFFFF;
     /*text-align: center;*/
 }
 .team-item-img {
@@ -232,16 +237,22 @@ body
     color: #FFFFFF;
     background-color: var(--main-active-color);
 }
-/*
+
 .projects {
 }
-.project-item {
+.project-item
+{
+    /*background-color: #EEEEEE;*/
+    width: 370px;
+    border-color: #EEEEEE;
+    border-style: ridge;
+    border-width: 1px;
 }
 .project-link {
 }
 .project-img {
 }
-*/
+
 .project-title
 {
     font-weight: 700;
