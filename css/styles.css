@@ -2,6 +2,7 @@
 {
     --main-text-color: #212121;
     --main-leter-spacing: 0.03em;
+    --main-active-color: #2196F3
 }
 
 .visible-none
@@ -51,7 +52,7 @@ body
 
 .logo-first-word
 {
-    color: #2196F3;
+    color: var(--main-active-color);
 }
 
 .navigation-list 
@@ -72,6 +73,10 @@ body
     color: var(--main-text-color);
 }
 
+.curent
+{
+    color: var(--main-active-color);
+}
 .contact-list
 {
     font-weight: 500;
@@ -88,9 +93,9 @@ body
     color: #757575;
 }
 
-.contact-item-link:hover,.contact-item-link:focus, .navigation-item-link:hover, .navigation-item-link:focus,.navigation-item-link:active
+.contact-item-link:hover,.contact-item-link:focus, .navigation-item-link:hover, .navigation-item-link:focus
 {
-    color: #2196F3;
+    color: var(--main-active-color);
 }
 
 /*----------------index--main---------------*/
@@ -124,16 +129,17 @@ body
     letter-spacing: 0.06em;
 
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--main-active-color);
 }
 
+/*
 .feature {
 }
 .feature-list {
 }
 .feature-item {
 }
-
+*/
 .feature-item-header 
 {
     font-weight: 700;
@@ -224,8 +230,9 @@ body
 .filter-btn:hover,.filter-btn:focus
 {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--main-active-color);
 }
+/*
 .projects {
 }
 .project-item {
@@ -234,7 +241,7 @@ body
 }
 .project-img {
 }
-
+*/
 .project-title
 {
     font-weight: 700;
