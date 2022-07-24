@@ -163,7 +163,8 @@ body
     letter-spacing: var(--main-leter-spacing);
 
 }
-.projects-list {
+.projects-list
+{
 }
 .projects-item {
 }
@@ -180,7 +181,9 @@ body
 }
 .team-list {
 }
-.team-item {
+.team-item 
+{
+    /*text-align: center;*/
 }
 .team-item-img {
 }
@@ -190,7 +193,6 @@ body
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: var(--main-leter-spacing);
 }
 
@@ -198,7 +200,6 @@ body
 {
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
     letter-spacing: var(--main-leter-spacing);
     color: #757575;
 }
