@@ -57,10 +57,7 @@ body
 
 .navigation-list 
 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+
 }
 
 .navigation-item
@@ -70,6 +67,10 @@ body
 
 .navigation-item-link
 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
@@ -79,10 +80,7 @@ body
 }
 .contact-list
 {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    
 }
 
 .contact-item {
@@ -90,6 +88,10 @@ body
 
 .contact-item-link
 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #757575;
 }
 
@@ -301,14 +303,15 @@ body
 
 .address-list-item
 {
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: var(--main-leter-spacing);
+
 }
 
 .address-list-link
 {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: var(--main-leter-spacing);
     color: rgba(255, 255, 255, 0.6);
 }
 
